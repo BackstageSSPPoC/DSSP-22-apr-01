@@ -1,8 +1,10 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
+
 metadata:
   name: DSSP-22-apr-01
-  description: Node app that displays time - named DSSP-22-apr-01
+  description: Service DSSP-22-apr-01
+
   annotations:
     github.com/project-slug: BackstageSSPPoC/DSSP-22-apr-01
     backstage.io/techdocs-ref: dir:.
@@ -10,7 +12,6 @@ metadata:
     argocd/app-name: dssp-22-apr-01
     backstage.io/kubernetes-id: DSSP-22-apr-01
     backstage.io/kubernetes-namespace: default
-    sonarqube.org/project-key: dssp-22-apr-01
 
 spec:
   type: service
